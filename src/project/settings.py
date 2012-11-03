@@ -7,7 +7,7 @@ DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
-    # ('Your Name', 'your_email@example.com'),
+    ('Greg Tracy', 'gtracy@gmail.com'),
 )
 
 MANAGERS = ADMINS
@@ -80,7 +80,7 @@ STATICFILES_FINDERS = (
 )
 
 # Make this unique, and don't share it with anybody.
-SECRET_KEY = 'pbv(g=%7$$4rzvl88e24etn57-%n0uw-@y*=7ak422_3!zrc9+'
+SECRET_KEY = 'pav(goa7$$20s3js9e349gn57-%n0uw-@y*=qosd2_3!zrc9+'
 
 # List of callables that know how to import templates from various sources.
 TEMPLATE_LOADERS = (
@@ -142,10 +142,10 @@ SHAREABOUTS = {
     'FLAVOR': 'default_config',
     # The name of the flavor. Optional, but useful for using the default settings.
 
-    'DATASET_ROOT': 'http://api.shareabouts.org/api/v1/datasets/demo-user/demo-data/',
+    'DATASET_ROOT': 'http://api.shareabouts.org/api/v1/datasets/',
     # The root URL of the dataset API
 
-    'DATASET_KEY': 'abc123',
+    'DATASET_KEY': 'abcd',
     # The API key for writing to the dataset.  You must set this in order to be
     # able to write to the dataset
 
