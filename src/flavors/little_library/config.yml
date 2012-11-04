@@ -38,7 +38,7 @@ place_types:
     default: blue
     focused: red
   Proposed:
-    default: blue
+    default: red
     focused: red
 
 # Defines place icons. See http://leaflet.cloudmade.com/reference.html#icon
