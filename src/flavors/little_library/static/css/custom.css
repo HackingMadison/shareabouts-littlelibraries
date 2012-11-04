@@ -229,6 +229,10 @@ ul.recent-points {
 /*  color: #fff;*/
 }
 
+.share {
+  padding: 20px;
+  float:right;
+}
 /* =Zendesk
 -------------------------------------------------------------- */
 #zenbox_tab {
